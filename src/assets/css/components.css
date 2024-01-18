@@ -1,0 +1,28 @@
+.card {
+  @apply min-w-[278px] xl:min-w-[278.462px] max-w-[280.462px] h-[392.365px] rounded-lg bg-[#c4c3c3] overflow-hidden relative;
+}
+.card-banner {
+  @apply xl:max-w-[149.367px] h-[76.182px] bg-white/70 backdrop-blur-[5px]  rounded-md p-[9px_20px_7px_19px] absolute z-10 bottom-0 left-0;
+  font-family: Inter;
+}
+.card-banner-text {
+  @apply text-[#042521] text-[17px] not-italic font-semibold;
+}
+.card-banner-subtext {
+  @apply text-[#80918E] text-[15px] not-italic font-medium;
+}
+
+.list {
+  @apply flex space-x-5 justify-start items-center;
+}
+.list-type {
+  @apply w-[50.46px] h-[51.533px]  rounded-[13px] bg-[#efe0b4] grid place-items-center;
+}
+.list-title {
+  @apply text-[#5E6282] text-lg  font-bold leading-[124.5%];
+  font-family: "Plus Jakarta Sans";
+}
+.list-desk {
+  @apply text-[#5E6282] text-base  font-normal leading-[124.5%] max-w-[350px];
+  font-family: "Plus Jakarta Sans";
+}

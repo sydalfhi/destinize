@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  @apply max-w-[1440px] px-[20px] lg:px-[100px] 2xl:px-[100px] m-auto;
+}
+
+@layer utilities {
+  .label-header {
+    @apply text-[#4475F2]  text-[9px] md:text-base xl:text-lg  font-extrabold  xl:leading-[26.5px] tracking-[1.71px];
+    font-family: Manrope;
+  }
+  .header-text {
+    @apply text-[color:var(#181E4B)] text-[20px] md:text-[48px] xl:text-[76px] not-italic font-extrabold xl:leading-[89px] tracking-[-3.04px];
+    font-family: "Plus Jakarta Sans";
+  }
+  .sub-heder-text {
+    @apply text-[#14183E] text-[16px] md:text-[36px] xl:text-5xl not-italic font-extrabold leading-[50px] tracking-[-0.48px];
+    font-family: Manrope;
+  }
+}
+
+@layer utilities {
+  .link {
+    @apply text-[#4475F2]  text-[10px] md:text-[14px] xl:text-[17px] not-italic font-semibold leading-[60px];
+    font-family: "Plus Jakarta Sans";
+  }
+}
