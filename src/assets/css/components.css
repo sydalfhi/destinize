@@ -26,3 +26,40 @@
   @apply text-[#5E6282] text-base  font-normal leading-[124.5%] max-w-[350px] mt-2;
   font-family: "Plus Jakarta Sans";
 }
+
+.blog-card {
+  @apply w-[295px] xl:w-[276px] rounded-tl-lg rounded-bl-lg rounded-br-lg rounded-tr-lg overflow-hidden shadow-[0px_2.767px_2.214px_0px_rgba(0,0,0,0.02),0px_6.65px_5.32px_0px_rgba(0,0,0,0.03),0px_12.522px_10.017px_0px_rgba(0,0,0,0.04),0px_22.336px_17.869px_0px_rgba(0,0,0,0.04),0px_41.778px_33.422px_0px_rgba(0,0,0,0.05),0px_100px_80px_0px_rgba(0,0,0,0.07)];
+}
+.blog-card-date {
+  @apply text-[#BDBDBD] text-sm font-semibold leading-6 tracking-[0.2px];
+  font-family: "Plus Jakarta Sans";
+}
+.blog-card-title {
+  @apply text-[#252B42] text-base font-bold leading-6 tracking-[0.1px];
+  font-family: "Plus Jakarta Sans";
+}
+.blog-card-desk {
+  @apply text-[color:var(--second-text-color,#737373)] text-sm not-italic font-semibold leading-6 tracking-[0.2px];
+  font-family: "Plus Jakarta Sans";
+}
+.blog-card-show-more {
+  @apply text-[color:var(--primary-color,#23A6F0)] text-sm not-italic font-semibold leading-6 tracking-[0.2px];
+  font-family: "Plus Jakarta Sans";
+}
+
+.blog-card-banner {
+  @apply h-[209px] w-[98%] bg-gradient-to-r from-black/50 to-black/30 absolute top-0 p-[50px_25px] shadow-xl rounded overflow-hidden;
+}
+.blog-card-banner-title {
+  @apply text-white text-[8px] xl:text-2xl not-italic font-extrabold leading-8 tracking-[2.1px];
+  text-shadow: 0px 13px 19px rgba(0, 0, 0, 0.24);
+  font-family: "Plus Jakarta Sans";
+}
+.blog-card-banner-desk {
+  @apply text-white text-[5px] xl:text-base not-italic font-medium leading-[26px] tracking-[0.2px] mt-[15px] w-1/2;
+  font-family: "Plus Jakarta Sans";
+}
+.blog-card-banner-link {
+  @apply text-[#FFF] text-base  font-semibold leading-6 tracking-[0.2px] mt-[15px];
+  font-family: Montserrat;
+}
