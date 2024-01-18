@@ -19,6 +19,11 @@ main {
     @apply text-[#14183E] text-[16px] md:text-[36px] xl:text-5xl not-italic font-extrabold leading-[50px] tracking-[-0.48px];
     font-family: Manrope;
   }
+  .paragrafh-header-text {
+    @apply text-[#18191F] text-center text-lg not-italic font-normal leading-8;
+    font-feature-settings: "liga" off;
+    font-family: Manrope;
+  }
 }
 
 @layer utilities {

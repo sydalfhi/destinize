@@ -23,6 +23,6 @@
   font-family: "Plus Jakarta Sans";
 }
 .list-desk {
-  @apply text-[#5E6282] text-base  font-normal leading-[124.5%] max-w-[350px];
+  @apply text-[#5E6282] text-base  font-normal leading-[124.5%] max-w-[350px] mt-2;
   font-family: "Plus Jakarta Sans";
 }

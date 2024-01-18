@@ -26,14 +26,14 @@ const OnlineReservaced = () => {
   ];
 
   return (
-    <section className="xl:mt-[146px] pb-[800px] grid grid-cols-1 lg:grid-cols-2 ">
+    <section className="mt-[100px] xl:mt-[146px]  grid grid-cols-1 lg:grid-cols-2 ">
       <div>
         <p className="label-header md:mb-3 xl:mb-[13px]">RESERVASI TEMPAT</p>
 
         <div className="flex justify-between items-center ">
           <div className="flex space-x-1 md:space-x-2 xl:space-x-4 items-center ">
             <h3 className="sub-heder-text max-w-[540px] relative">
-              <span className="text-[50px] leading-[50px]">
+              <span className="text-[38px] xl:text-[50px] leading-[50px]">
                 Gak mau ngantri? reservasi aja!
               </span>
               <span className="absolute translate-x-5">
@@ -64,7 +64,7 @@ const OnlineReservaced = () => {
 
       <div className="relative mt-20 xl:mt-10">
         <img src={Dummy1} alt="dummy" className="relative z-50" />
-        <div className="absolute z-10 top-0 right-10 xl:right-28   w-[300px] xl:w-[40vh] aspect-square opacity-60 blur-[75px] rounded-full bg-[#4475f2]"></div>
+        <div className="absolute z-10 top-0 right-10 xl:right-28   w-[150px] xl:w-[40vh] aspect-square opacity-60 blur-[75px] rounded-full bg-[#4475f2]"></div>
       </div>
     </section>
   );

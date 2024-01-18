@@ -1,4 +1,5 @@
 import FavoriteDestination from "./layout/FavoriteDestination";
+import FindPlace from "./layout/FindPlace";
 import OnlineReservaced from "./layout/OnlineReservaced";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         {/* reservasi*/}
         <OnlineReservaced />
         {/* tempat wisata*/}
+        <FindPlace />
         {/* galery*/}
         {/* testimony*/}
         {/* faq*/}
