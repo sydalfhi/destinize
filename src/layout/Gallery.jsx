@@ -5,7 +5,7 @@ import BannerBlog from "../assets/images/bannerBlog.jpg";
 import ArrowIcon from "../assets/icons/arrow.svg";
 const Gallery = () => {
   return (
-    <section className="mt-[100px] xl:mt-[170px] pb-[700px]">
+    <section className="mt-[60px] xl:mt-[170px] ">
       <p className="label-header md:mb-3 xl:mb-[13px] ">MENGENAL DESTINIZE</p>
 
       <div className="flex justify-between items-center ">
@@ -15,7 +15,9 @@ const Gallery = () => {
             alt="windowIcon"
             className="w-[20px] md:w-[28px] xl:w-[40px] max-h-[40px]"
           />
-          <h3 className="sub-heder-text">• Galeri Pariwisata & Blog Travel</h3>
+          <h3 className="sub-header-text min-[428px]:text-[25px]  md:text-[36px] xl:text-5xl ">
+            • Galeri Pariwisata & Blog Travel
+          </h3>
         </div>
         <div>
           <a href="#" className="link flex space-x-1 xl:space-x-2 items-center">

@@ -15,14 +15,14 @@
   @apply flex space-x-5 justify-start items-center;
 }
 .list-type {
-  @apply w-[50.46px] h-[51.533px]  rounded-[13px] bg-[#efe0b4] grid place-items-center;
+  @apply min-w-[50.46px] h-[51.533px]  rounded-[13px] bg-[#efe0b4] grid place-items-center;
 }
 .list-title {
-  @apply text-[#5E6282] text-lg  font-bold leading-[124.5%];
-  font-family: "Plus Jakarta Sans";
+  @apply text-[#45485f] text-lg  font-bold leading-[124.5%];
+  font-family: "Plus Jakarta bold";
 }
 .list-desk {
-  @apply text-[#5E6282] text-base  font-normal leading-[124.5%] max-w-[350px] mt-2;
+  @apply text-[#5E6282] text-[15px] md:text-base  font-normal leading-[124.5%] max-w-[350px] mt-2;
   font-family: "Plus Jakarta Sans";
 }
 

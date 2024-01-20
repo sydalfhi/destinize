@@ -1,7 +1,12 @@
+import Company from "./layout/Company";
 import FavoriteDestination from "./layout/FavoriteDestination";
 import FindPlace from "./layout/FindPlace";
 import Gallery from "./layout/Gallery";
 import OnlineReservaced from "./layout/OnlineReservaced";
+
+import "./assets/css/components.css";
+import "./assets/css/swiper.css";
+import Testimonial from "./layout/Testimonial";
 
 function App() {
   return (
@@ -10,6 +15,7 @@ function App() {
         {/* navbar */}
         {/* hero section */}
         {/* colaboration*/}
+        <Company />
         {/* destinasi favorit*/}
         <FavoriteDestination />
         {/* reservasi*/}
@@ -19,6 +25,7 @@ function App() {
         {/* galery*/}
         <Gallery />
         {/* testimony*/}
+        <Testimonial />
         {/* faq*/}
         {/* cta*/}
         {/* footer*/}

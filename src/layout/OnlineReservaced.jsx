@@ -28,15 +28,15 @@ const OnlineReservaced = () => {
   return (
     <section className="mt-[80px] xl:mt-[146px]  grid grid-cols-1 lg:grid-cols-2 ">
       <div>
-        <p className="label-header md:mb-3 xl:mb-[13px]">RESERVASI TEMPAT</p>
+        <p className="label-header  md:mb-3 xl:mb-[13px]">RESERVASI TEMPAT</p>
 
-        <div className="flex justify-between items-center ">
+        <div className="flex justify-between items-center -mt-2">
           <div className="flex space-x-1 md:space-x-2 xl:space-x-4 items-center ">
-            <h3 className="sub-heder-text max-w-[540px] relative">
-              <span className="text-[38px] xl:text-[50px] leading-[50px]">
+            <h3 className="sub-header-text max-w-[540px] relative ">
+              <p className=" relative z-0 leading-[60px] min-[360px]:text-[20px] min-[428px]:text-[25px]  md:text-[36px] xl:text-5xl ">
                 Gak mau ngantri? reservasi aja!
-              </span>
-              <span className="absolute translate-x-5">
+              </p>
+              <span className="hidden md:inline absolute  top-14 right-5  xl:right-32 -translate-x-10  z-20 min-w-11">
                 <img
                   src={AnjayIcon}
                   alt="planeIcon"
@@ -47,7 +47,7 @@ const OnlineReservaced = () => {
           </div>
         </div>
 
-        <div className="mt-[33px] grid gap-y-8 ">
+        <div className="min-[360px]:mt-[10px] xl:mt-[33px] grid gap-y-8 ">
           {listData.map((item, index) => (
             <div className="list" key={index}>
               <div className="list-type">

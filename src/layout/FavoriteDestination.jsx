@@ -6,8 +6,6 @@ import Bromo from "../assets/images/bromo.jpg";
 
 import ArrowIcon from "../assets/icons/arrow.svg";
 
-import "../assets/css/components.css";
-
 const FavoriteDestination = () => {
   const card = [
     {
@@ -33,7 +31,7 @@ const FavoriteDestination = () => {
   ];
 
   return (
-    <section>
+    <section className="mt-[100px]">
       <p className="label-header md:mb-3 xl:mb-[13px]">DESTINASI FAVORIT</p>
 
       <div className="flex justify-between items-center ">
@@ -41,20 +39,18 @@ const FavoriteDestination = () => {
           <img
             src={PlaneIcon}
             alt="planeIcon"
-            className="w-[20px] md:w-[28px] xl:w-[40px] max-h-[40px]"
+            className="w-[12px] min-[360px]:w-[16px] md:w-[28px] xl:w-[40px] max-h-[40px]"
           />
-          <h3 className="sub-heder-text">• Temukan Destinasi Favoritmu</h3>
+          <h3 className="sub-header-text min-[360px]:text-[20px] min-[428px]:text-[24px] md:text-[36px] xl:text-5xl ">
+            • Temukan Destinasi Favoritmu
+          </h3>
         </div>
 
-        <div>
+        <div className="hidden lg:block">
           <a href="#" className="link flex space-x-1 xl:space-x-2 items-center">
             <span>Lihat semua</span>
             <span>
-              <img
-                src={ArrowIcon}
-                alt="arrowIcon"
-                className="w-[3px] xl:w-full"
-              />
+              <img src={ArrowIcon} alt="arrowIcon" className="w-full" />
             </span>
           </a>
         </div>

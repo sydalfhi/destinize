@@ -10,6 +10,12 @@
       url("./../font/PlusJakartaSans/ttf/PlusJakartaSans-SemiBold.ttf");
   }
   @font-face {
+    font-family: "Plus Jakarta bold";
+    font-weight: 900;
+    src: local("Plus Jakarta bold"),
+      url("./../font/PlusJakartaSans/ttf/PlusJakartaSans-Bold.ttf");
+  }
+  @font-face {
     font-family: "Plus Jakarta extrabold";
     font-weight: 900;
     src: local("Plus Jakarta extrabold"),
@@ -35,19 +41,19 @@ main {
 
 @layer utilities {
   .label-header {
-    @apply text-[#4475F2]  text-[9px] md:text-base xl:text-lg  font-extrabold  xl:leading-[26.5px] tracking-[1.71px];
+    @apply text-[#4475F2]  text-[12px] md:text-base xl:text-lg  font-extrabold  xl:leading-[26.5px] tracking-[1.71px] mb-2;
     font-family: "Manrope";
   }
   .header-text {
     @apply text-[#181E4B] text-[20px] md:text-[48px] xl:text-[76px] font-extrabold  xl:leading-[89px] tracking-[-3.04px];
     font-family: "Plus Jakarta extrabold";
   }
-  .sub-heder-text {
-    @apply text-[#14183E] text-[16px] md:text-[36px] xl:text-5xl  font-extrabold  leading-3 tracking-[-0.48px];
+  .sub-header-text {
+    @apply text-[#14183E]    font-extrabold  tracking-[-0.48px];
     font-family: "Manrope extra";
   }
   .paragrafh-header-text {
-    @apply text-[#18191F] text-center text-[11px] xl:text-lg not-italic  leading-8;
+    @apply text-[#18191F] text-center text-[14px] xl:text-lg not-italic  leading-5 xl:leading-8;
     font-feature-settings: "liga" off;
     font-family: "Manrope";
   }
