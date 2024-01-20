@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    src: local("Plus Jakarta Sans"),
+      url("./../font/PlusJakartaSans/ttf/PlusJakartaSans-SemiBold.ttf");
+  }
+  @font-face {
+    font-family: "Plus Jakarta extrabold";
+    font-weight: 900;
+    src: local("Plus Jakarta extrabold"),
+      url("./../font/PlusJakartaSans/ttf/PlusJakartaSans-ExtraBold.ttf");
+  }
+}
+@layer base {
+  @font-face {
+    font-family: "Manrope";
+    font-weight: 400;
+    src: local("Manrope"), url("./../font/Manrope/Manrope-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Manrope extra";
+    font-weight: 900;
+    src: local("Manrope extra"), url("./../font/Manrope/Manrope-ExtraBold.ttf");
+  }
+}
+
 main {
   @apply max-w-[1440px] px-[20px] lg:px-[100px] 2xl:px-[100px] m-auto;
 }
@@ -9,26 +36,26 @@ main {
 @layer utilities {
   .label-header {
     @apply text-[#4475F2]  text-[9px] md:text-base xl:text-lg  font-extrabold  xl:leading-[26.5px] tracking-[1.71px];
-    font-family: Manrope;
+    font-family: "Manrope";
   }
   .header-text {
-    @apply text-[color:var(#181E4B)] text-[20px] md:text-[48px] xl:text-[76px] not-italic font-extrabold xl:leading-[89px] tracking-[-3.04px];
-    font-family: "Plus Jakarta Sans";
+    @apply text-[#181E4B] text-[20px] md:text-[48px] xl:text-[76px] font-extrabold  xl:leading-[89px] tracking-[-3.04px];
+    font-family: "Plus Jakarta extrabold";
   }
   .sub-heder-text {
-    @apply text-[#14183E] text-[16px] md:text-[36px] xl:text-5xl not-italic font-extrabold leading-[50px] tracking-[-0.48px];
-    font-family: Manrope;
+    @apply text-[#14183E] text-[16px] md:text-[36px] xl:text-5xl  font-extrabold  leading-3 tracking-[-0.48px];
+    font-family: "Manrope extra";
   }
   .paragrafh-header-text {
-    @apply text-[#18191F] text-center text-lg not-italic font-normal leading-8;
+    @apply text-[#18191F] text-center text-[11px] xl:text-lg not-italic  leading-8;
     font-feature-settings: "liga" off;
-    font-family: Manrope;
+    font-family: "Manrope";
   }
 }
 
 @layer utilities {
   .link {
-    @apply text-[#4475F2]  text-[10px] md:text-[14px] xl:text-[17px] not-italic font-semibold leading-[60px];
+    @apply text-[#4475F2]  text-[10px] md:text-[14px] xl:text-[17px]  font-semibold leading-[60px];
     font-family: "Plus Jakarta Sans";
   }
 }

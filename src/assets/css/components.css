@@ -1,15 +1,14 @@
 .card {
-  @apply min-w-[278px] xl:min-w-[278.462px] max-w-[280.462px] h-[392.365px] rounded-lg bg-[#c4c3c3] overflow-hidden relative;
+  @apply min-w-[230px] xl:min-w-[278.462px] max-w-[280.462px] h-[325px] xl:h-[392.365px] rounded-lg bg-[#c4c3c3] overflow-hidden relative;
 }
 .card-banner {
   @apply xl:max-w-[149.367px] h-[76.182px] bg-white/70 backdrop-blur-[5px]  rounded-md p-[9px_20px_7px_19px] absolute z-10 bottom-0 left-0;
-  font-family: Inter;
 }
 .card-banner-text {
   @apply text-[#042521] text-[17px] not-italic font-semibold;
 }
 .card-banner-subtext {
-  @apply text-[#80918E] text-[15px] not-italic font-medium;
+  @apply text-[#80918E] text-[15px]  font-medium;
 }
 
 .list {

@@ -26,7 +26,7 @@ const OnlineReservaced = () => {
   ];
 
   return (
-    <section className="mt-[100px] xl:mt-[146px]  grid grid-cols-1 lg:grid-cols-2 ">
+    <section className="mt-[80px] xl:mt-[146px]  grid grid-cols-1 lg:grid-cols-2 ">
       <div>
         <p className="label-header md:mb-3 xl:mb-[13px]">RESERVASI TEMPAT</p>
 
@@ -63,7 +63,7 @@ const OnlineReservaced = () => {
       </div>
 
       <div className="relative mt-20 xl:mt-10">
-        <img src={Dummy1} alt="dummy" className="relative z-50" />
+        <img src={Dummy1} alt="dummy" className="relative z-50 scale-125" />
         <div className="absolute z-10 top-0 right-10 xl:right-28   w-[150px] xl:w-[40vh] aspect-square opacity-60 blur-[75px] rounded-full bg-[#4475f2]"></div>
       </div>
     </section>
