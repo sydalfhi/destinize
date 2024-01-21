@@ -31,7 +31,7 @@ const FavoriteDestination = () => {
   ];
 
   return (
-    <section className="mt-[100px]">
+    <section className="mt-[50px] ">
       <p className="label-header md:mb-3 xl:mb-[13px]">DESTINASI FAVORIT</p>
 
       <div className="flex justify-between items-center ">
@@ -72,6 +72,15 @@ const FavoriteDestination = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className=" grid place-items-center">
+        <a href="#" className="link flex space-x-1 xl:space-x-2 items-center">
+          <span>Lihat semua</span>
+          <span>
+            <img src={ArrowIcon} alt="arrowIcon" className="w-full" />
+          </span>
+        </a>
       </div>
     </section>
   );

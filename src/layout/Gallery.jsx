@@ -19,7 +19,7 @@ const Gallery = () => {
             • Galeri Pariwisata & Blog Travel
           </h3>
         </div>
-        <div>
+        <div className="hidden lg:block">
           <a href="#" className="link flex space-x-1 xl:space-x-2 items-center">
             <span>Lihat semua</span>
             <span>
@@ -33,11 +33,15 @@ const Gallery = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-12 xl:mt-[54px]">
-        <div className="col-span-12 xl:col-span-3 justify-self-center">
-          <div className="blog-card ">
-            <img src={BromoCover} alt="bromocover" />
-            <div className=" px-[25px] py-5 flex flex-col space-y-[15px] ">
+      <div className="grid grid-cols-12 mt-[10px] xl:mt-[54px]">
+        <div className="order-2 md:order-1 col-span-12 md:col-span-4 justify-self-center">
+          <div className="blog-card bg-white md:scale-[.85] min-[884px]:scale-100 ">
+            <img
+              src={BromoCover}
+              alt="bromocover"
+              className="w-full h-[125px] object-cover"
+            />
+            <div className=" px-[25px] py-2 lg:py-5 flex flex-col space-y-1 lg:space-y-[15px] ">
               <p className="blog-card-date">22 Februari 2022</p>
               <p className="blog-card-title">
                 Tips naik gunung Bromo Biar gak capek cyin 😥😛
@@ -52,12 +56,12 @@ const Gallery = () => {
           </div>
         </div>
 
-        <div className="col-span-12 xl:col-span-9   px-[25px] my-5 lg:my-0">
+        <div className="order-1 md:order-2  col-span-12 md:col-span-8   px-5 lg:px-[25px] my-5 min-[884px]:my-0">
           <div className="bg-orange-400 rounded-md aspect-video w-full"></div>
         </div>
       </div>
 
-      <div className="xl:mt-[37px] w-full   h-[208px] relative pr-[25px]">
+      <div className=" mt-[37px] w-full   max-h-[208px] relative pr-[25px] overflow-hidden">
         <img src={BannerBlog} alt="" className="relative z-0 w-full" />
         <div className="blog-card-banner">
           <h1 className="blog-card-banner-title">

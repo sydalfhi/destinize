@@ -1,5 +1,5 @@
 .card {
-  @apply min-w-[230px] xl:min-w-[278.462px] max-w-[280.462px] h-[325px] xl:h-[392.365px] rounded-lg bg-[#c4c3c3] overflow-hidden relative;
+  @apply min-w-[180px] min-[375px]:w-[220px] xl:min-w-[278.462px] max-w-[280.462px] h-[245px] min-[375px]:h-[255px] xl:h-[392.365px] rounded-lg bg-[#c4c3c3] overflow-hidden relative;
 }
 .card-banner {
   @apply xl:max-w-[149.367px] h-[76.182px] bg-white/70 backdrop-blur-[5px]  rounded-md p-[9px_20px_7px_19px] absolute z-10 bottom-0 left-0;
@@ -27,22 +27,22 @@
 }
 
 .blog-card {
-  @apply w-[295px] xl:w-[276px] rounded-tl-lg rounded-bl-lg rounded-br-lg rounded-tr-lg overflow-hidden shadow-[0px_2.767px_2.214px_0px_rgba(0,0,0,0.02),0px_6.65px_5.32px_0px_rgba(0,0,0,0.03),0px_12.522px_10.017px_0px_rgba(0,0,0,0.04),0px_22.336px_17.869px_0px_rgba(0,0,0,0.04),0px_41.778px_33.422px_0px_rgba(0,0,0,0.05),0px_100px_80px_0px_rgba(0,0,0,0.07)];
+  @apply w-[276px] xl:w-[276px] rounded-tl-lg rounded-bl-lg rounded-br-lg rounded-tr-lg overflow-hidden shadow-[0px_2.767px_2.214px_0px_rgba(0,0,0,0.02),0px_6.65px_5.32px_0px_rgba(0,0,0,0.03),0px_12.522px_10.017px_0px_rgba(0,0,0,0.04),0px_22.336px_17.869px_0px_rgba(0,0,0,0.04),0px_41.778px_33.422px_0px_rgba(0,0,0,0.05),0px_100px_80px_0px_rgba(0,0,0,0.07)];
 }
 .blog-card-date {
-  @apply text-[#BDBDBD] text-sm font-semibold leading-6 tracking-[0.2px];
+  @apply text-[#BDBDBD] text-[10px] lg:text-sm font-semibold leading-6 tracking-[0.2px];
   font-family: "Plus Jakarta Sans";
 }
 .blog-card-title {
-  @apply text-[#252B42] text-base font-bold leading-6 tracking-[0.1px];
+  @apply text-[#252B42]  text-[13px] lg:text-base font-bold leading-6 tracking-[0.1px];
   font-family: "Plus Jakarta Sans";
 }
 .blog-card-desk {
-  @apply text-[color:var(--second-text-color,#737373)] text-sm not-italic font-semibold leading-6 tracking-[0.2px];
+  @apply text-[#737373] text-[10px] lg:text-sm not-italic font-semibold leading-6 tracking-[0.2px];
   font-family: "Plus Jakarta Sans";
 }
 .blog-card-show-more {
-  @apply text-[color:var(--primary-color,#23A6F0)] text-sm not-italic font-semibold leading-6 tracking-[0.2px];
+  @apply text-[#23A6F0] text-[10px] lg:text-sm not-italic font-semibold leading-6 tracking-[0.2px];
   font-family: "Plus Jakarta Sans";
 }
 
@@ -61,4 +61,8 @@
 .blog-card-banner-link {
   @apply text-[#FFF] text-base  font-semibold leading-6 tracking-[0.2px] mt-[15px];
   font-family: Montserrat;
+}
+
+section {
+  @apply overflow-x-hidden;
 }
