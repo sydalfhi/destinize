@@ -12,6 +12,7 @@ import Faq from "./layout/faq";
 import Hero from "./layout/Hero";
 import Navbar from "./layout/Navbar";
 import Cta from "./layout/Cta";
+import Footer from "./layout/Footer";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         {/* cta*/}
         <Cta />
         {/* footer*/}
+        <Footer />
       </main>
     </>
   );

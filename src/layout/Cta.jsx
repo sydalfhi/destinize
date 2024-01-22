@@ -7,7 +7,7 @@ const Cta = () => {
       {/* ====== Call To Action Section Start */}
       <section className="py-20 lg:py-[120px] bg-white dark:bg-dark">
         <div className="rounded-2xl  bg-[#4372EB]  pr-8 grid grid-cols-1 md:grid-cols-2 ">
-          <div className="flex justify-center items-center flex-col bg-red-500 p-10 gap-y-8">
+          <div className="flex justify-center items-center flex-col p-10 gap-y-8">
             <h1
               className=" max-w-[462px] text-white text-[40px]  font-extrabold leading-[54px] "
               style={{ fontFamily: "Manrope extra" }}
