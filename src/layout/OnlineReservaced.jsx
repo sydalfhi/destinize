@@ -36,7 +36,7 @@ const OnlineReservaced = () => {
               <p className=" relative z-0 leading-[60px] min-[360px]:text-[20px] min-[428px]:text-[25px]  md:text-[36px] xl:text-5xl ">
                 Gak mau ngantri? reservasi aja!
               </p>
-              <span className="hidden md:inline absolute  top-5 -right-20  xl:right-32   z-20 min-w-11">
+              <span className="hidden md:inline absolute  top-5 -right-20  xl:right-36 xl:top-12  z-20 min-w-11 ">
                 <img
                   src={AnjayIcon}
                   alt="planeIcon"

@@ -4,6 +4,12 @@
 
 @layer base {
   @font-face {
+    font-family: "Plus Jakarta medium";
+    font-weight: 500;
+    src: local("Plus Jakarta medium"),
+      url("./../font/PlusJakartaSans/ttf/PlusJakartaSans-Medium.ttf");
+  }
+  @font-face {
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
     src: local("Plus Jakarta Sans"),
