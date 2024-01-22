@@ -8,6 +8,7 @@ import "./assets/css/components.css";
 import "./assets/css/anim.css";
 import "./assets/css/swiper.css";
 import Testimonial from "./layout/testimonial/";
+import Faq from "./layout/faq";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         {/* testimony*/}
         <Testimonial />
         {/* faq*/}
+        <Faq />
         {/* cta*/}
         {/* footer*/}
       </main>

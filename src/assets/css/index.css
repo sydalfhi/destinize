@@ -35,6 +35,11 @@
     src: local("Manrope"), url("./../font/Manrope/Manrope-Regular.ttf");
   }
   @font-face {
+    font-family: "Manrope bold";
+    font-weight: 700;
+    src: local("Manrope bold"), url("./../font/Manrope/Manrope-Bold.ttf");
+  }
+  @font-face {
     font-family: "Manrope extra";
     font-weight: 900;
     src: local("Manrope extra"), url("./../font/Manrope/Manrope-ExtraBold.ttf");
@@ -42,7 +47,7 @@
 }
 
 main {
-  @apply max-w-[1440px] px-[20px] lg:px-[100px] 2xl:px-[100px] m-auto;
+  @apply max-w-[1440px] px-[20px] lg:px-[80px] 2xl:px-[90px] m-auto;
 }
 
 @layer utilities {

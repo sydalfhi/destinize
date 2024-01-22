@@ -2,7 +2,7 @@ import starFill from "./../../assets/icons/star.svg";
 import starBorder from "./../../assets/icons/star_border.svg";
 const TestimonialCard = ({ item }) => {
   return (
-    <div className="flex min-w-[365px] max-w-[366px]   flex-col items-center gap-[30px] border md:shadow-[0px_2.767px_2.214px_0px_rgba(0,0,0,0.02),0px_6.65px_5.32px_0px_rgba(0,0,0,0.03),0px_12.522px_10.017px_0px_rgba(0,0,0,0.04),0px_22.336px_17.869px_0px_rgba(0,0,0,0.04),0px_41.778px_33.422px_0px_rgba(0,0,0,0.05),0px_100px_80px_0px_rgba(0,0,0,0.07)] px-[35px] py-10 rounded-[5px] border-solid border-[#DEDEDE] bg-white">
+    <div className="flex min-w-[365px] max-w-[366px]   flex-col items-center gap-[30px] border  px-[35px] py-10 rounded-[5px] border-solid border-[#DEDEDE] bg-white">
       <div className="grid place-items-center">
         <img
           src={item.displayPicture}

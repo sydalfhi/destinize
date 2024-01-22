@@ -19,11 +19,12 @@ const Testimonial = () => {
   let data = [
     {
       id: 1,
-      displayPicture: Sandhika,
-      text: "Destinize membantu saya Mencari spot tempat wisata baru di Indonesia dengan Mudah ",
-      name: "Sandhika Galih",
-      label: "Dosen WPU",
+      displayPicture: Patric,
+      text: "Bikini Bottom menjadi sangat ramai dikunjungi saat saya memasukkannya di Destinize",
+      name: "Syaid Alfarishi",
+      label: "Front End Dev",
     },
+
     {
       id: 2,
       displayPicture: Syauqi,
@@ -33,10 +34,10 @@ const Testimonial = () => {
     },
     {
       id: 3,
-      displayPicture: Patric,
-      text: "Bikini Bottom menjadi sangat ramai dikunjungi saat saya memasukkannya di Destinize",
-      name: "Syaid Alfarishi",
-      label: "Front End Dev",
+      displayPicture: Sandhika,
+      text: "Destinize membantu saya Mencari spot tempat wisata baru di Indonesia dengan Mudah ",
+      name: "Sandhika Galih",
+      label: "Dosen WPU",
     },
   ];
 
@@ -51,12 +52,12 @@ const Testimonial = () => {
 
   useEffect(() => {
     setWithSwiper(() => {
-      return window.innerWidth < 768 ? true : false;
+      return window.innerWidth < 1280 ? true : false;
     });
   }, []);
 
   return (
-    <section className="mt-[100px] xl:mt-[140px] pb-96 ">
+    <section className="mt-[100px] xl:mt-[140px]  ">
       <p className="label-header md:mb-3 xl:mb-[13px] text-center">
         TESTIMONIAL DESTINIZE
       </p>
@@ -80,7 +81,7 @@ const Testimonial = () => {
       </p>
 
       <div className="mt-[50px] xl:mt-[87px] ">
-        <div className="flex flex-nowrap justify-between ">
+        <div className="flex flex-nowrap lg:justify-between justify-center  gap-[15px]">
           {withSwiper && (
             <Swiper
               spaceBetween={30}
