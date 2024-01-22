@@ -5,8 +5,9 @@ import Gallery from "./layout/Gallery";
 import OnlineReservaced from "./layout/OnlineReservaced";
 
 import "./assets/css/components.css";
+import "./assets/css/anim.css";
 import "./assets/css/swiper.css";
-import Testimonial from "./layout/Testimonial";
+import Testimonial from "./layout/testimonial/";
 
 function App() {
   return (
