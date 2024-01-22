@@ -17,7 +17,7 @@ export function faqContent() {
       id: 3,
       tanya: "Apakah ada kebijakan pembatalan dan pengembalian dana?",
       jawab:
-        "Kami memahami bahwa rencana dapat berubah. Jika Anda perlu membatalkan pemesanan, berlaku kebijakan pembatalan tertentu. Untuk informasi lebih lanjut, silakan lihat kebijakan pembatalan kami di halaman <q><strong>Syarat dan Ketentuan</strong></q>  atau hubungi tim dukungan pelanggan kami. Harap dicatat bahwa biaya pembatalan tertentu mungkin berlaku.",
+        "Kami memahami bahwa rencana dapat berubah. Jika Anda perlu membatalkan pemesanan, berlaku kebijakan pembatalan tertentu. Untuk informasi lebih lanjut, silakan lihat kebijakan pembatalan kami di halaman 'Syarat dan Ketentuan'  atau hubungi tim dukungan pelanggan kami. Harap dicatat bahwa biaya pembatalan tertentu mungkin berlaku.",
     },
   ];
 

@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import PlaneIcon from "./../../assets/images/plane.png";
+import BingungIcon from "./../../assets/images/bingung.png";
 import { AccordionItem } from "./AccordionItem";
 import { faqContent } from "./faqContent";
 const Faq = () => {
@@ -7,14 +7,14 @@ const Faq = () => {
 
   return (
     <>
-      <section className="mt-[100px] overflow-hidden pb-96">
+      <section className="mt-[100px] overflow-hidden ">
         <p className="label-header md:mb-3 xl:mb-[13px]">FREQUENTLY ASKED </p>
 
         <div className="flex justify-between items-center ">
           <div className="flex space-x-1 md:space-x-2 xl:space-x-4 items-center ">
             <img
-              src={PlaneIcon}
-              alt="planeIcon"
+              src={BingungIcon}
+              alt="Bingung_Icon"
               className="w-[12px] min-[360px]:w-[16px] md:w-[28px] xl:w-[40px] max-h-[40px]"
             />
             <h3 className="sub-header-text min-[360px]:text-[20px] min-[428px]:text-[24px] md:text-[36px] xl:text-5xl ">

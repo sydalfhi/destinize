@@ -9,13 +9,18 @@ import "./assets/css/anim.css";
 import "./assets/css/swiper.css";
 import Testimonial from "./layout/testimonial/";
 import Faq from "./layout/faq";
+import Hero from "./layout/Hero";
+import Navbar from "./layout/Navbar";
+import Cta from "./layout/Cta";
 
 function App() {
   return (
     <>
       <main>
         {/* navbar */}
+        {/* <Navbar /> */}
         {/* hero section */}
+        <Hero />
         {/* colaboration*/}
         <Company />
         {/* destinasi favorit*/}
@@ -31,6 +36,7 @@ function App() {
         {/* faq*/}
         <Faq />
         {/* cta*/}
+        <Cta />
         {/* footer*/}
       </main>
     </>

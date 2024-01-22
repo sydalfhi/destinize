@@ -74,7 +74,7 @@ const FavoriteDestination = () => {
         ))}
       </div>
 
-      <div className=" grid place-items-center">
+      <div className=" grid md:hidden place-items-center">
         <a href="#" className="link flex space-x-1 xl:space-x-2 items-center">
           <span>Lihat semua</span>
           <span>
