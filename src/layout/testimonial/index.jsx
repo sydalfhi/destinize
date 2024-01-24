@@ -20,7 +20,7 @@ const Testimonial = () => {
     {
       id: 1,
       displayPicture: Patric,
-      text: "Bikini Bottom menjadi sangat ramai dikunjungi saat saya memasukkannya di Destinize",
+      text: "Destinize membantu saya untuk melihat sisi lain dunia yang begitu indah di mata",
       name: "Syaid Alfarishi",
       label: "Front End Dev",
     },

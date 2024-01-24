@@ -5,7 +5,7 @@ import BannerBlog from "../assets/images/bannerBlog.jpg";
 import ArrowIcon from "../assets/icons/arrow.svg";
 const Gallery = () => {
   return (
-    <section className="mt-[60px] xl:mt-[170px] ">
+    <section className="mt-[60px] lg:mt-[100px] ">
       <p className="label-header md:mb-3 xl:mb-[13px] ">MENGENAL DESTINIZE</p>
 
       <div className="flex justify-between items-center ">

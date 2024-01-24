@@ -1,3 +1,12 @@
+.btn-primary {
+  @apply bg-[#4475f2] w-[198px] h-[60px] text-white  font-bold leading-[normal] shadow-[0px_20px_35px_0px_rgba(68,117,242,0.21)] p-5 rounded-[10px];
+  font-family: "Plus Jakarta bold";
+}
+.btn-secondary {
+  @apply bg-transparent w-[198px] h-[60px] text-white  font-bold;
+  font-family: "Plus Jakarta bold";
+}
+
 .card {
   @apply min-w-[180px] min-[375px]:w-[220px] xl:min-w-[278.462px] max-w-[280.462px] h-[245px] min-[375px]:h-[255px] xl:h-[392.365px] rounded-lg bg-[#c4c3c3] overflow-hidden relative;
 }

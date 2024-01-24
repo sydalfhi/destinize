@@ -46,7 +46,7 @@ const Company = () => {
 
   return (
     <>
-      <section className="mt-[80px] xl:mt-[146px]  ">
+      <section className="mt-[20px] md:my-20  ">
         <div className="slider">
           <div className="slide-track">
             {listCompany.map((item) => (

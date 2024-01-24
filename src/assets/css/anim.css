@@ -23,7 +23,7 @@
   top: 0;
 }
 .slider .slide-track {
-  animation: scroll 35s linear infinite;
+  animation: scroll 50s linear infinite;
   display: flex;
   gap: 0 50px;
   width: 3500px;

@@ -7,7 +7,7 @@ const TestimonialCard = ({ item }) => {
         <img
           src={item.displayPicture}
           alt={item.name}
-          className="rounded-full"
+          className="rounded-full max-w-[150px]"
         />
       </div>
       <div>
