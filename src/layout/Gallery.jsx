@@ -15,7 +15,7 @@ const Gallery = () => {
             alt="windowIcon"
             className="w-[20px] md:w-[28px] xl:w-[40px] max-h-[40px]"
           />
-          <h3 className="sub-header-text min-[428px]:text-[25px]  md:text-[36px] xl:text-5xl ">
+          <h3 className="text-[15px] min-[360px]:text-[19px]  min-[428px]:text-[25px]  md:text-[36px] xl:text-5xl sub-header-text ">
             • Galeri Pariwisata & Blog Travel
           </h3>
         </div>

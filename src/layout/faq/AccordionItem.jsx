@@ -33,7 +33,7 @@ export const AccordionItem = ({ header, text }) => {
 
         <div className="w-full">
           <h4
-            className="mt-1 text-lg font-bold   "
+            className="mt-1 text-[17px] md:text-lg font-bold   "
             style={{ fontFamily: "Manrope bold" }}
           >
             {header}
@@ -47,7 +47,7 @@ export const AccordionItem = ({ header, text }) => {
         }`}
       >
         <p
-          className="py-3 text-[17px] leading-relaxed text-black/80 before:content-[''] before:w-1 before:h-[70%]  before:bg-blue-500 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 relative px-5 before:rounded-full"
+          className=" py-3 text-[15px] md:text-[17px] leading-relaxed text-black/80 before:content-[''] before:w-1 before:h-[70%]  before:bg-blue-500 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 relative pl-5 before:rounded-full"
           style={{ fontFamily: "Manrope" }}
         >
           {text}

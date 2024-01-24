@@ -39,9 +39,9 @@ const FavoriteDestination = () => {
           <img
             src={PlaneIcon}
             alt="planeIcon"
-            className="w-[12px] min-[360px]:w-[16px] md:w-[28px] xl:w-[40px] max-h-[40px]"
+            className="w-[12px] min-[360px]:w-[20px] md:w-[28px] xl:w-[40px] max-h-[40px]"
           />
-          <h3 className="sub-header-text min-[360px]:text-[20px] min-[428px]:text-[24px] md:text-[36px] xl:text-5xl ">
+          <h3 className="sub-header-text min-[360px]:text-[19px] min-[428px]:text-[24px] md:text-[36px] xl:text-5xl ">
             • Temukan Destinasi Favoritmu
           </h3>
         </div>

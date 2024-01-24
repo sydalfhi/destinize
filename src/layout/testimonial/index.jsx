@@ -81,11 +81,11 @@ const Testimonial = () => {
       </p>
 
       <div className="mt-[50px] xl:mt-[87px]    overflow-x-hidden">
-        <div className="flex flex-nowrap justify-between    md:overflow-x-auto gap-[15px]">
+        <div className="flex flex-nowrap justify-center md:justify-between    md:overflow-x-auto gap-[15px]">
           {withSwiper && (
             <Swiper
-              spaceBetween={30}
-              centeredSlides={true}
+              spaceBetween={0}
+              centeredSlides={false}
               autoplay={{
                 delay: 5000,
                 disableOnInteraction: false,
@@ -96,7 +96,7 @@ const Testimonial = () => {
               navigation={false}
               modules={[Autoplay, Pagination]}
               onAutoplayTimeLeft={onAutoplayTimeLeft}
-              className="mySwiper "
+              className="mySwiper  "
             >
               {data.map((item, index) => (
                 <div
