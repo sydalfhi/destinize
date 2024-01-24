@@ -10,9 +10,9 @@ import "./assets/css/swiper.css";
 import Testimonial from "./layout/testimonial/";
 import Faq from "./layout/faq";
 import Hero from "./layout/Hero";
-import Navbar from "./layout/Navbar";
+// import Navbar from "./layout/Navbar";
 import Cta from "./layout/Cta";
-import Footer from "./layout/Footer";
+import Footer from "./layout/footer/";
 
 function App() {
   return (

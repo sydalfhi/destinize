@@ -1,5 +1,5 @@
 import CtaImage from "./../assets/images/ctaImage.png";
-import Bingung from "./../assets/images/bingung.png";
+// import Bingung from "./../assets/images/bingung.png";
 
 const Cta = () => {
   return (
