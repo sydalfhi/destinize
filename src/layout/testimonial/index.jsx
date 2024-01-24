@@ -52,12 +52,12 @@ const Testimonial = () => {
 
   useEffect(() => {
     setWithSwiper(() => {
-      return window.innerWidth < 1280 ? true : false;
+      return window.innerWidth < 768 ? true : false;
     });
   }, []);
 
   return (
-    <section className="mt-[100px] xl:mt-[140px]  ">
+    <section className="mt-[100px] xl:mt-[140px] overflow-x-hidden  ">
       <p className="label-header md:mb-3 xl:mb-[13px] text-center">
         TESTIMONIAL DESTINIZE
       </p>
@@ -80,8 +80,8 @@ const Testimonial = () => {
         cek dibawah!
       </p>
 
-      <div className="mt-[50px] xl:mt-[87px] ">
-        <div className="flex flex-nowrap lg:justify-between justify-center  gap-[15px]">
+      <div className="mt-[50px] xl:mt-[87px]    overflow-x-hidden">
+        <div className="flex flex-nowrap justify-between    md:overflow-x-auto gap-[15px]">
           {withSwiper && (
             <Swiper
               spaceBetween={30}
@@ -96,12 +96,17 @@ const Testimonial = () => {
               navigation={false}
               modules={[Autoplay, Pagination]}
               onAutoplayTimeLeft={onAutoplayTimeLeft}
-              className=" mySwiper "
+              className="mySwiper "
             >
               {data.map((item, index) => (
-                <SwiperSlide key={index * 10}>
-                  <TestimonialCard item={item} />
-                </SwiperSlide>
+                <div
+                  className="swiper-slide grid place-items-center"
+                  key={index * 10}
+                >
+                  <SwiperSlide>
+                    <TestimonialCard item={item} />
+                  </SwiperSlide>
+                </div>
               ))}
 
               <div className="autoplay-progress" slot="container-end">
