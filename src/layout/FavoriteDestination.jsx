@@ -40,6 +40,7 @@ const FavoriteDestination = () => {
             src={PlaneIcon}
             alt="planeIcon"
             className="w-[12px] min-[360px]:w-[20px] md:w-[28px] xl:w-[40px] max-h-[40px]"
+            loading="lazy"
           />
           <h3 className="sub-header-text min-[360px]:text-[19px] min-[428px]:text-[24px] md:text-[36px] xl:text-5xl ">
             • Temukan Destinasi Favoritmu
@@ -50,7 +51,12 @@ const FavoriteDestination = () => {
           <a href="#" className="link flex space-x-1 xl:space-x-2 items-center">
             <span>Lihat semua</span>
             <span>
-              <img src={ArrowIcon} alt="arrowIcon" className="w-full" />
+              <img
+                src={ArrowIcon}
+                alt="arrowIcon"
+                className="w-full"
+                loading="lazy"
+              />
             </span>
           </a>
         </div>

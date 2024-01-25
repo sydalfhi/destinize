@@ -68,6 +68,7 @@ const Testimonial = () => {
             src={MapIcon}
             alt="mapIcon"
             className="w-[20px] md:w-[28px] xl:w-[40px] max-h-[40px]"
+            loading="lazy"
           />
           <h3 className="sub-header-text min-[360px]:text-[18px] min-[428px]:text-[23px]  md:text-[36px] xl:text-5xl ">
             • Apa Kata Mereka Tentang Kami

@@ -31,7 +31,7 @@ const DeskAndContact = () => {
     <>
       <div className="max-w-[455px] flex-grow-0   md:mx-0 mx-auto  text-left">
         <a className="flex flex-col title-font font-medium items-start md:justify-start justify-center text-gray-900">
-          <img src={mainIcon} alt="main icon" />
+          <img src={mainIcon} alt="main icon" loading="lazy" />
           <span
             className="text-black text-2xl font-bold my-4"
             style={{ fontFamily: "Plus Jakarta bold" }}

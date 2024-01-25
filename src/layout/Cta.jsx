@@ -24,7 +24,12 @@ const Cta = () => {
             </p>
           </div>
           <div className="flex  lg:justify-end">
-            <img src={CtaImage} alt="cta image" className="w-full" />
+            <img
+              src={CtaImage}
+              alt="cta image"
+              className="w-full"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>

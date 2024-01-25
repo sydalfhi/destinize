@@ -14,6 +14,7 @@ const Gallery = () => {
             src={WindowIcon}
             alt="windowIcon"
             className="w-[20px] md:w-[28px] xl:w-[40px] max-h-[40px]"
+            loading="lazy"
           />
           <h3 className="text-[15px] min-[360px]:text-[19px]  min-[428px]:text-[25px]  md:text-[36px] xl:text-5xl sub-header-text ">
             • Galeri Pariwisata & Blog Travel
@@ -27,6 +28,7 @@ const Gallery = () => {
                 src={ArrowIcon}
                 alt="arrowIcon"
                 className="w-[3px] xl:w-full"
+                loading="lazy"
               />
             </span>
           </a>
@@ -40,6 +42,7 @@ const Gallery = () => {
               src={BromoCover}
               alt="bromocover"
               className="w-full h-[125px] object-cover"
+              loading="lazy"
             />
             <div className=" px-[25px] py-2 lg:py-5 flex flex-col space-y-1 lg:space-y-[15px] ">
               <p className="blog-card-date">22 Februari 2022</p>
@@ -62,7 +65,12 @@ const Gallery = () => {
       </div>
 
       <div className=" mt-[37px] w-full   max-h-[208px] relative pr-[25px] overflow-hidden">
-        <img src={BannerBlog} alt="" className="relative z-0 w-full" />
+        <img
+          src={BannerBlog}
+          alt=""
+          className="relative z-0 w-full"
+          loading="lazy"
+        />
         <div className="blog-card-banner">
           <h1 className="blog-card-banner-title">
             Tips meminum air kawah biar lidah melepuh 😁

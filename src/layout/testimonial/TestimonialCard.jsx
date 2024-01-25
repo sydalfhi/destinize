@@ -19,11 +19,11 @@ const TestimonialCard = ({ item }) => {
         </p>
         <div className="flex flex-col  items-center justify-center gap-[15px]  my-[15px]">
           <div className="grid grid-cols-5 space-x-1">
-            <img src={starFill} alt="star" />
-            <img src={starFill} alt="star" />
-            <img src={starFill} alt="star" />
-            <img src={starFill} alt="star" />
-            <img src={starBorder} alt="star_border" />
+            <img loading="lazy" src={starFill} alt="star" />
+            <img loading="lazy" src={starFill} alt="star" />
+            <img loading="lazy" src={starFill} alt="star" />
+            <img loading="lazy" src={starFill} alt="star" />
+            <img loading="lazy" src={starBorder} alt="star_border" />
           </div>
           <p
             className="text-[#23A6F0] text-sm not-italic font-semibold leading-6 tracking-[0.2px]"

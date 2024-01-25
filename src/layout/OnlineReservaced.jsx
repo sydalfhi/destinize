@@ -41,6 +41,7 @@ const OnlineReservaced = () => {
                   src={AnjayIcon}
                   alt="planeIcon"
                   className="w-[50px] md:w-[30px] aspect-scale xl:w-[50px] max-h-[50px]"
+                  loading="lazy"
                 />
               </span>
             </h3>
@@ -51,7 +52,7 @@ const OnlineReservaced = () => {
           {listData.map((item, index) => (
             <div className="list" key={index}>
               <div className="list-type">
-                <img src={item.iconImage} alt="icon" />
+                <img src={item.iconImage} alt="icon" loading="lazy" />
               </div>
               <div>
                 <h5 className="list-title">{item.text}</h5>
@@ -63,7 +64,12 @@ const OnlineReservaced = () => {
       </div>
 
       <div className="relative mt-20 xl:mt-10">
-        <img src={Dummy1} alt="dummy" className="relative z-50 scale-125" />
+        <img
+          src={Dummy1}
+          alt="dummy"
+          className="relative z-50 scale-125"
+          loading="lazy"
+        />
         <div className="absolute z-10 top-0 right-10 xl:right-28   w-[150px] xl:w-[40vh] aspect-square opacity-60 blur-[75px] rounded-full bg-[#4475f2]"></div>
       </div>
     </section>

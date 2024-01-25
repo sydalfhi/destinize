@@ -59,14 +59,20 @@ const FindPlace = () => {
       <img
         src={BaseMap}
         alt="map"
-        className="my-6 xl:my-12 hover:cursor-zoom-in"
+        className="my-6 xl:my-12 hover:cursor-zoom-in "
+        loading="lazy"
       />
 
       <div className="grid gap-y-5 lg:gap-y-0 md:grid-cols-2 lg:grid-cols-3 w-full justify-items-start">
         {listMapService.map((item, index) => (
           <div className="flex space-x-4 items-start" key={index}>
             <div className="min-w-[49.5px] max-w-[50px]  rounded-full bg-[#EFF2F6] aspect-square grid place-items-center">
-              <img src={item.icon} alt="icon" className="w-[24px]" />
+              <img
+                src={item.icon}
+                alt="icon"
+                className="w-[24px]"
+                loading="lazy"
+              />
             </div>
             <div>
               <h1 className={list_base_title}>{item.text}</h1>
