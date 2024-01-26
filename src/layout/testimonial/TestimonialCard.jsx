@@ -8,11 +8,12 @@ const TestimonialCard = ({ item }) => {
           src={item.displayPicture}
           alt={item.name}
           className="rounded-full max-w-[150px]"
+          loading="lazy"
         />
       </div>
       <div>
         <p
-          className=" max-h-20 overflow-y-auto  text-neutral-500 text-center text-base  font-medium leading-[26px] tracking-[0.2px]"
+          className=" max-h-[120px] min-h-[100px] overflow-y-auto  text-neutral-500 text-center text-base  font-medium leading-[26px] tracking-[0.2px]"
           style={{ fontFamily: "Plus Jakarta medium" }}
         >
           {item.text}

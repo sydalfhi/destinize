@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <section className="overflow-hidden">
+      <section className="overflow-hidden mt-28">
         <div className=" mx-auto flex lg:px-5  md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-2/3 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-10 md:mb-0 items-center text-center">
             <p
@@ -30,7 +30,10 @@ const Hero = () => {
             >
               <span>Liburan & nikmati</span>
               <span>
-                <span className="text-[#4475F2]">tempat baru</span> di
+                <span className="text-[#4475F2] tracking-normal">
+                  tempat baru
+                </span>{" "}
+                di
               </span>
               <span className="flex items-center justify-start space-x-4">
                 <span> indonesia ️</span>{" "}
@@ -68,7 +71,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className=" lg:max-w-lg scale-125 md:scale-[1.7]  md:-translate-x-12 lg:translate-x-0 lg:scale-[1.26] lg:w-full md:w-1/3 w-5/6 top-6 relative">
+          <div className="  lg:max-w-lg scale-125 md:scale-[1.7] lg:overflow-visible  md:-translate-x-12 lg:translate-x-0 lg:scale-[1.23] lg:w-full md:w-1/3 w-5/6 top-10 relative">
             <img
               className="object-cover object-center rounded"
               alt="hero"

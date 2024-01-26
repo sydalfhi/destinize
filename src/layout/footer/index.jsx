@@ -10,7 +10,7 @@ const Footer = () => {
           <LinkItem />
         </div>
         <div>
-          <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <div className="container mx-auto py-4 md:px-5 flex flex-wrap flex-col sm:flex-row">
             <span className="mx-auto lg:mr-0 lg:ml-auto grid grid-cols-2 place-content-center place-items-center gap-10 md:grid-cols-4">
               <a
                 href=""
