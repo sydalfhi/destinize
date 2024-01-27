@@ -20,7 +20,7 @@ const Testimonial = () => {
     {
       id: 1,
       displayPicture: Patric,
-      text: "Destinize membantu saya untuk melihat sisi lain dunia yang begitu indah di mata",
+      text: "Destinize membantu saya untuk melihat belahan sisi lain dunia yang begitu indah di pandang mata ",
       name: "Syaid Alfarishi",
       label: "Front End Dev",
     },

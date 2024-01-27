@@ -1,6 +1,6 @@
 const Sidebar = () => {
   return (
-    <div className="absolute inset-0 z-40 -left-full duration-300 transition-all">
+    <div className="md:hidden absolute inset-0 z-40 -left-full  duration-300 transition-all">
       <aside className="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
         <a href="#">
           <img

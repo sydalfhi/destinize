@@ -32,7 +32,7 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: skyblue;
+  color: gray;
 }
 
 .autoplay-progress svg {
@@ -44,7 +44,7 @@
   width: 100%;
   height: 100%;
   stroke-width: 4px;
-  stroke: skyblue;
+  stroke: gray;
   fill: none;
   stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
   stroke-dasharray: 125.6;

@@ -10,9 +10,10 @@ import "./assets/css/swiper.css";
 import Testimonial from "./layout/testimonial/";
 import Faq from "./layout/faq";
 import Hero from "./layout/Hero";
-import Navbar from "./layout/Navbar";
+import Navbar from "./layout/header/Navbar";
 import Cta from "./layout/Cta";
 import Footer from "./layout/footer/";
+import SubNav from "./layout/header/SubNav";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         {/* navbar */}
         <Navbar />
         {/* hero section */}
+        <SubNav />
         <Hero />
         {/* colaboration*/}
         <Company />

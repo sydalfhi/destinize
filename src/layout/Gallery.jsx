@@ -1,6 +1,7 @@
 import WindowIcon from "../assets/images/window.png";
 import BromoCover from "../assets/images/bromo_cover.png";
 import BannerBlog from "../assets/images/bannerBlog.jpg";
+import thumbVidio from "../assets/images/coverThumb.jpg";
 
 import ArrowIcon from "../assets/icons/arrow.svg";
 const Gallery = () => {
@@ -60,7 +61,9 @@ const Gallery = () => {
         </div>
 
         <div className="order-1 md:order-2  col-span-12 md:col-span-8   px-5 lg:px-[25px] my-5 min-[884px]:my-0">
-          <div className="bg-orange-400 rounded-md aspect-video w-full"></div>
+          <div className="rounded-md aspect-video w-full overflow-hidden">
+            <img src={thumbVidio} alt="thmb" className="w-full h-full" />
+          </div>
         </div>
       </div>
 
