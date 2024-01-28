@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <section className="overflow-hidden mt-[40px] md:mt-[72px] ">
+      <section className="mt-[40px] md:mt-[72px] ">
         <div className=" mx-auto flex lg:px-5  md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-2/3 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-10 md:mb-0 items-center text-center">
             <p
