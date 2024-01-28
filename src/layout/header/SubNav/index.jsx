@@ -1,43 +1,64 @@
 import { useState } from "react";
 
 const SubNav = () => {
-  const [open, setOpen] = useState(false);
+  const [ref_1, setRef1] = useState(false);
+  const [ref_2, setRef2] = useState(false);
+  const [ref_3, setRef3] = useState(false);
+  const [ref_4, setRef4] = useState(false);
+  const [ref_5, setRef5] = useState(false);
 
   const data = [
     {
       id: 1,
+      reference: ref_1,
+      setreference: setRef1,
       label: "gunung",
       text1: "gunung bromo",
       text2: "gunung rinjani",
     },
     {
       id: 2,
+      reference: ref_2,
+      setreference: setRef2,
       label: "pantai",
       text1: "pantai lombol",
       text2: "pantai bali",
     },
     {
       id: 3,
+      reference: ref_3,
+      setreference: setRef3,
       label: "bukit",
       text1: "bukit nabaru",
       text2: "bukit barisan",
     },
+    {
+      id: 4,
+      reference: ref_4,
+      setreference: setRef4,
+      label: "kuliner",
+      text1: "kulinar pedas",
+      text2: "kuliner asin",
+    },
+    {
+      id: 5,
+      reference: ref_5,
+      setreference: setRef5,
+      label: "kuliner",
+      text1: "kulinar pedas",
+      text2: "kuliner asin",
+    },
   ];
+
   return (
     <>
-      <div className="mt-3 grid grid-cols-5 place-items-center gap-x-9">
+      <div className="mt-3 md:grid grid-cols-5 place-items-center gap-x-9 py-5 hidden">
         {data.map((item) => (
-          <div
-            key={item.id}
-            className="relative inline-block "
-            onClick={() => setOpen((open) => !open)}
-          >
+          <div key={item.id} className="relative inline-block ">
             <button className="relative z-10 flex items-center p-2 text-sm text-gray-600 bg-white  rounded-md  ">
               <span className="mx-1 capitalize">{item.label}</span>
               <svg
-                className={`w-5 h-5 mx-1 transition-all duration-300 ${
-                  open ? "rotate-180" : "rotate-0"
-                }`}
+                className={`w-5 h-5 mx-1 transition-all duration-300 rotate-0`}
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,17 +69,6 @@ const SubNav = () => {
                 ></path>
               </svg>
             </button>
-
-            {open && (
-              <div className="absolute left-2.5 z-20 w-56  overflow-hidden  bg-white flex flex-col space-y-2">
-                <a href="#" className="  text-sm text-gray-600 capitalize ">
-                  {item.text1}
-                </a>
-                <a href="#" className=" text-sm text-gray-600 capitalize ">
-                  {item.text2}
-                </a>
-              </div>
-            )}
           </div>
         ))}
       </div>

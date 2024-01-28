@@ -99,10 +99,10 @@ const Testimonial = () => {
               onAutoplayTimeLeft={onAutoplayTimeLeft}
               className="mySwiper  "
             >
-              {data.map((item, index) => (
+              {data.map((item) => (
                 <div
                   className="swiper-slide grid place-items-center"
-                  key={index * 10}
+                  key={item.id}
                 >
                   <SwiperSlide>
                     <TestimonialCard item={item} />

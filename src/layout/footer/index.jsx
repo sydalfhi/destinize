@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="container px-5 py-16 mx-auto flex md:items-center lg:items-start lg:flex-row md:flex-nowrap flex-wrap flex-col md:justify-between">
+        <div className="container px-5 pb-16  mx-auto flex md:items-center lg:items-start lg:flex-row md:flex-nowrap flex-wrap flex-col md:justify-between">
           <DeskAndContact />
           <LinkItem />
         </div>
