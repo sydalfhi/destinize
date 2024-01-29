@@ -9,3 +9,6 @@ Dibuat Dengan Bantuan
 react library
 --> zustand state managemant
 --> swiper js , slide card
+
+
+figma link <a href="https://codedesign.dev/challenge/destinize">link to figma </a>
