@@ -145,7 +145,7 @@ export const AccordionItemSidebar = ({ header, text, color }) => {
     setActive(!active);
   };
   return (
-    <div className=" w-full   overflow-x-hidden ">
+    <div className=" w-full   overflow-x-hidden  ">
       <button
         className={`faq-btn flex w-full text-center`}
         onClick={() => handleToggle()}
