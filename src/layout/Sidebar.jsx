@@ -6,18 +6,15 @@ const Sidebar = () => {
 
   return (
     <div
-      className={`md:hidden fixed inset-0 z-40  overflow-y-hidden  duration-300 transition-all  ${
-        open ? "-left-0" : "-left-full"
+      className={`md:hidden fixed origin-top-left inset-0 z-40  overflow-y-hidden  duration-300 transition-all  ${
+        open ? " -translate-x-0 " : "-translate-x-[100%]"
       }`}
     >
-      <aside className="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
-        <a href="#">
-          <img
-            className="w-auto h-7"
-            src="https://merakiui.com/images/logo.svg"
-            alt=""
-          />
-        </a>
+      <aside className="flex flex-col w-64 h-full px-5 py-8 overflow-x-hidden overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+        <TitleComponent />
+        <div className="relative scale-75 top-5 -left-7">
+          <SearchComponent />
+        </div>
         <div className="flex flex-col justify-between flex-1 mt-6">
           <nav className="-mx-3 space-y-3 ">
             <a
@@ -103,7 +100,7 @@ const Sidebar = () => {
             </a>
           </nav>
 
-          <div className="-translate-y-10">
+          <div className="-top-5 relative">
             <div className="flex items-center justify-between">
               <h2 className="text-base font-semibold text-gray-800 ">
                 Destinasi
@@ -127,6 +124,7 @@ const Sidebar = () => {
               />
             </nav>
           </div>
+          <LocationComponent />
         </div>
       </aside>
     </div>
@@ -136,6 +134,9 @@ const Sidebar = () => {
 export default Sidebar;
 
 import { useState } from "react";
+import TitleComponent from "../components/Title";
+import LocationComponent from "../components/Location";
+import SearchComponent from "../components/Search";
 
 export const AccordionItemSidebar = ({ header, text, color }) => {
   const [active, setActive] = useState(false);

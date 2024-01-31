@@ -2,7 +2,7 @@ const LinkItem = () => {
   const titleStyle = "text-black text-lg font-bold capitalize";
   const listStyle = "text-[#9A9EA6] text-sm capitalize font-normal";
   return (
-    <div className="   flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-10 mt-10 md:text-left text-center">
+    <div className=" lg:translate-x-28 flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-10 mt-10 md:text-left text-center">
       {/* link */}
       <div className="lg:w-1/3 md:w-1/3 w-full px-4">
         <h2 className={titleStyle} style={{ fontFamily: "Plus Jakarta bold" }}>

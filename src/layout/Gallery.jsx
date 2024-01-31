@@ -1,6 +1,5 @@
 import WindowIcon from "../assets/images/window.png";
 import BromoCover from "../assets/images/bromo_cover.png";
-import BannerBlog from "../assets/images/bannerBlog.jpg";
 import thumbVidio from "../assets/images/coverThumb.jpg";
 
 import ArrowIcon from "../assets/icons/arrow.svg";
@@ -42,7 +41,7 @@ const Gallery = () => {
             <img
               src={BromoCover}
               alt="bromocover"
-              className="w-full h-[125px] object-cover"
+              className="w-full h-[175px] object-cover"
               loading="lazy"
             />
             <div className=" px-[25px] py-2 lg:py-5 flex flex-col space-y-1 lg:space-y-[15px] ">
@@ -62,37 +61,7 @@ const Gallery = () => {
 
         <div className="order-1 md:order-2  col-span-12 md:col-span-8   px-5 lg:px-[25px] my-5 min-[884px]:my-0">
           <div className="rounded-md aspect-video w-full overflow-hidden">
-            <img src={thumbVidio} alt="thmb" className="w-full h-full" />
-          </div>
-        </div>
-      </div>
-
-      <div className=" mt-[37px] w-full   max-h-[208px] relative pr-[25px] overflow-hidden">
-        <img
-          src={BannerBlog}
-          alt=""
-          className="relative z-0 w-full"
-          loading="lazy"
-        />
-        <div className="blog-card-banner">
-          <h1 className="blog-card-banner-title">
-            Tips meminum air kawah biar lidah melepuh 😁
-          </h1>
-          <p className="blog-card-banner-desk">
-            Lidah melepuh? why nott, kawah bukan untuk dilihat kawan.. tapi
-            untuk di minum.. rasakan kepanasan yang brutal 🔥
-          </p>
-
-          <div className="flex space-x-10">
-            <a className="blog-card-banner-link" href="#">
-              Goggle
-            </a>
-            <a className="blog-card-banner-link" href="#">
-              Trending
-            </a>
-            <a className="blog-card-banner-link" href="#">
-              Baru
-            </a>
+            <img src={thumbVidio} alt="thmb" className="w-full h-full " />
           </div>
         </div>
       </div>

@@ -63,7 +63,7 @@ const FavoriteDestination = () => {
       </div>
 
       {/* swiper */}
-      <div className="flex flex-nowrap space-x-6 xl:space-x-0 justify-between overflow-x-scroll xl:overflow-hidden mt-[10px] md:mt-4 xl:mt-[46px] ">
+      <div className="flex z-50 flex-nowrap  space-x-6 xl:space-x-0 justify-between overflow-x-scroll xl:overflow-hidden mt-[10px] md:mt-4 xl:mt-[46px] ">
         {card.map((item, index) => (
           <div className="card" key={index}>
             <img
@@ -80,9 +80,9 @@ const FavoriteDestination = () => {
         ))}
       </div>
 
-      <div className=" grid md:hidden place-items-center">
-        <a href="#" className="link flex space-x-1 xl:space-x-2 items-center">
-          <span>Lihat semua</span>
+      <div className=" grid md:hidden place-items-center mt-5">
+        <a href="#" className="link flex  space-x-1 xl:space-x-2 items-center">
+          <span className="text-sm ">lihat semua</span>
           <span>
             <img src={ArrowIcon} alt="arrowIcon" className="w-full" />
           </span>

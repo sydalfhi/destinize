@@ -1,8 +1,8 @@
-import mainIcon from "../../assets/images/mainIcon.png";
 import PhoneIcon from "../../assets/icons/phone.svg";
 import EmailIcon from "../../assets/icons/email.svg";
 import Addrescon from "../../assets/icons/address.svg";
 import PrinterIcon from "../../assets/icons/printer.svg";
+import TitleComponent from "../../components/Title";
 const DeskAndContact = () => {
   const data = [
     {
@@ -30,17 +30,11 @@ const DeskAndContact = () => {
   return (
     <>
       <div className="max-w-[455px] flex-grow-0   md:mx-0 mx-auto  text-left">
-        <a className="flex flex-col title-font font-medium items-start md:justify-start justify-center text-gray-900">
-          <img src={mainIcon} alt="main icon" loading="lazy" />
-          <span
-            className="text-black text-2xl font-bold my-4"
-            style={{ fontFamily: "Plus Jakarta bold" }}
-          >
-            Destinize
-          </span>
-        </a>
+        <div className="flex flex-col title-font font-medium items-start md:justify-start justify-center text-gray-900">
+          <TitleComponent />
+        </div>
         <p
-          className="  text-[#9A9EA6] text-sm not-italic font-normal leading-6"
+          className="  text-[#9A9EA6] text-sm not-italic font-normal leading-6 mt-5"
           style={{ fontFamily: "Plus Jakarta normal" }}
         >
           Destinize adalah website atau layanan aplikasi yang membantu kamu

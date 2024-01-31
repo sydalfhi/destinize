@@ -3,12 +3,20 @@ import HeroImg from "../../assets/images/hero.png";
 import playButton from "../../assets/icons/playButton.svg";
 import Planeicon from "../../assets/images/plane.png";
 
+import { useAppContext } from "../../hook/AppContext";
+import { useShallow } from "zustand/react/shallow";
 const Hero = () => {
+  const [setFalseSIdebar] = useAppContext(
+    useShallow((state) => [state.setFalseSIdebar])
+  );
   return (
     <>
       {/* <Navbar /> */}
-      <section className="mt-[40px] md:mt-[72px] ">
-        <div className=" mx-auto flex lg:px-5  md:flex-row flex-col items-center">
+      <section
+        className="mt-[40px]    py-10 pt-5 overflow-hidden"
+        onTouchMove={setFalseSIdebar}
+      >
+        <div className=" mx-auto flex lg:px-5  md:flex-row flex-col items-center ">
           <div className="lg:flex-grow md:w-2/3 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-10 md:mb-0 items-center text-center">
             <p
               className="flex space-x-1 justify-center items-center text-[#4F7DF3] text-sm not-italic font-bold px-[23px] py-[9px] bg-[#E5EDFF] rounded-[39px]"
@@ -71,7 +79,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="  lg:max-w-lg scale-125 md:scale-[1.7] lg:overflow-visible  md:-translate-x-12 lg:translate-x-0 lg:scale-[1.23] lg:w-full md:w-1/3 w-5/6 top-10 relative">
+          <div className="  lg:max-w-lg scale-125 md:scale-[1.7] lg:overflow-hidden  md:-translate-x-12 lg:translate-x-0 lg:scale-[1.23] lg:w-full md:w-1/3 w-5/6 top-10 relative">
             <img
               className="object-cover object-center rounded"
               alt="hero"
