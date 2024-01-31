@@ -36,7 +36,7 @@
 }
 
 .blog-card {
-  @apply w-[276px] xl:w-[276px] rounded-tl-lg rounded-bl-lg rounded-br-lg rounded-tr-lg overflow-hidden shadow-[0px_2.767px_2.214px_0px_rgba(0,0,0,0.02),0px_6.65px_5.32px_0px_rgba(0,0,0,0.03),0px_12.522px_10.017px_0px_rgba(0,0,0,0.04),0px_22.336px_17.869px_0px_rgba(0,0,0,0.04),0px_41.778px_33.422px_0px_rgba(0,0,0,0.05),0px_100px_80px_0px_rgba(0,0,0,0.07)];
+  @apply w-[276px] xl:w-[276px] xl:h-[420px] rounded-tl-lg rounded-bl-lg rounded-br-lg rounded-tr-lg overflow-hidden shadow-[0px_2.767px_2.214px_0px_rgba(0,0,0,0.02),0px_6.65px_5.32px_0px_rgba(0,0,0,0.03),0px_12.522px_10.017px_0px_rgba(0,0,0,0.04),0px_22.336px_17.869px_0px_rgba(0,0,0,0.04),0px_41.778px_33.422px_0px_rgba(0,0,0,0.05),0px_100px_80px_0px_rgba(0,0,0,0.07)];
 }
 .blog-card-date {
   @apply text-[#BDBDBD] text-[10px] lg:text-sm font-semibold leading-6 tracking-[0.2px];

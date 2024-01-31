@@ -14,13 +14,15 @@ import Navbar from "./layout/header/Navbar";
 import Cta from "./layout/Cta";
 import Footer from "./layout/footer/";
 import SubNav from "./layout/header/SubNav";
-
+import Sidebar from "./layout/Sidebar";
 function App() {
   return (
     <>
       <main>
         {/* navbar */}
         <Navbar />
+        <Sidebar />
+
         {/* hero section */}
         <SubNav />
         <Hero />

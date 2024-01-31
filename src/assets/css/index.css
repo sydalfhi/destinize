@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+main {
+  @apply max-w-[1440px] px-[20px] lg:px-[80px] 2xl:px-[90px] m-auto;
+}
+
 @layer base {
   @font-face {
     font-family: "Plus Jakarta normal";
@@ -50,10 +54,6 @@
     font-weight: 900;
     src: local("Manrope extra"), url("./../font/Manrope/Manrope-ExtraBold.ttf");
   }
-}
-
-main {
-  @apply max-w-[1440px] px-[20px] lg:px-[80px] 2xl:px-[90px] m-auto;
 }
 
 @layer utilities {
