@@ -67,7 +67,7 @@ const OnlineReservaced = () => {
         <img
           src={Dummy1}
           alt="dummy"
-          className="relative z-30 scale-125"
+          className="relative z-30 lg:scale-125"
           loading="lazy"
         />
         <div className="absolute z-10 top-0 right-10 xl:right-28   w-[150px] xl:w-[40vh] 2xl:max-w-[300px] aspect-square opacity-60 blur-[75px] rounded-full bg-[#4475f2]"></div>

@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Bag from "../../../assets/icons/bag.svg";
+import Users from "../../../assets/icons/user.svg";
 
 const SubNav = () => {
   const [ref_1, setRef1] = useState(false);
@@ -53,7 +55,7 @@ const SubNav = () => {
   return (
     <>
       <div className="grid grid-cols-12 mt-2">
-        <div className="mt-3 md:grid grid-cols-5 place-items-center gap-x-9 py-5 hidden col-span-10">
+        <div className="mt-3 md:grid  grid-cols-5 place-items-center gap-x-2 py-5 hidden col-span-9">
           {data.map((item) => (
             <div key={item.id} className="relative inline-block ">
               <button className="relative z-10 flex items-center p-2 text-sm text-gray-600 bg-white  rounded-md  ">
@@ -73,7 +75,18 @@ const SubNav = () => {
             </div>
           ))}
         </div>
-        <div className="py-1 min-w-[170px] bg-red-600 col-span-2"></div>
+        <div className="py-1 min-w-[170px] col-span-3 md:flex items-center justify-center space-x-6 hidden">
+          <a href="#">
+            <div className="w-12 min-h-12 bg-[#4475F2] grid place-items-center rounded-full">
+              <img src={Bag} alt="bag" className="" />
+            </div>
+          </a>
+          <a href="#">
+            <div className="w-12 min-h-12 bg-[#E3EBFD] grid place-items-center rounded-full">
+              <img src={Users} alt="users" />
+            </div>
+          </a>
+        </div>
       </div>
     </>
   );
