@@ -1,6 +1,7 @@
 import WindowIcon from "../assets/images/window.png";
 import BromoCover from "../assets/images/bromo_cover.png";
 import thumbVidio from "../assets/images/coverThumb.jpg";
+import StopIcon from "../assets/icons/stop.svg";
 
 import ArrowIcon from "../assets/icons/arrow.svg";
 const Gallery = () => {
@@ -60,8 +61,17 @@ const Gallery = () => {
         </div>
 
         <div className="order-1 md:order-2  col-span-12 md:col-span-8   px-5 lg:px-[25px] my-5 min-[884px]:my-0">
-          <div className="rounded-md aspect-video w-full overflow-hidden">
-            <img src={thumbVidio} alt="thmb" className="w-full h-full " />
+          <div className="rounded-md aspect-video w-full overflow-hidden relative hover:cursor-pointer">
+            <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-20">
+              <div className="grid place-items-center bg-[#23A6F0] rounded-full min-w-[92px] min-h-[92px] max-h-[92px] ">
+                <img src={StopIcon} alt="stop" />
+              </div>
+            </div>
+            <img
+              src={thumbVidio}
+              alt="thmbmb"
+              className="w-full h-full relative z-10"
+            />
           </div>
         </div>
       </div>

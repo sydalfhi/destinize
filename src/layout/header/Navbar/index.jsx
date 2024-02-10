@@ -11,7 +11,7 @@ const Navbar = () => {
   const [setSidebar] = useAppContext(useShallow((state) => [state.setSidebar]));
   return (
     <>
-      <header className="relative ">
+      <header className="relative overflow-x-hidden ">
         <section className="flex justify-between   relative w-full min-h-[50px] mt-[20px]">
           <TitleComponent />
 
@@ -19,13 +19,18 @@ const Navbar = () => {
             <SearchComponent />
           </div>
 
-          <div className=" space-x-1 items-center hidden md:flex">
-            <img src={GlobalIcon} alt="global" />
-            <select className="  px-1 appearance-none focus:border-none focus:ring-0 cursor-pointer">
-              <option selected value="indonesia">
-                Bahasa Indonesia
-              </option>
-            </select>
+          <div className=" bg-[#E3EBFD] px-5 rounded-md space-x-1 items-center hidden md:flex">
+            <label className="flex space-x-3 ">
+              <img src={GlobalIcon} alt="global" />
+              <select
+                className="   px-1 appearance-none focus:border-none focus:ring-0 cursor-pointer "
+                style={{ background: "transparent" }}
+              >
+                <option selected value="indonesia">
+                  Bahasa Indonesia
+                </option>
+              </select>
+            </label>
           </div>
 
           <div className="hidden md:block">

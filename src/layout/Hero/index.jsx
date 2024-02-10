@@ -2,6 +2,7 @@ import PantaiIcon from "../../assets/images/pantai.png";
 import HeroImg from "../../assets/images/hero.png";
 import playButton from "../../assets/icons/playButton.svg";
 import Planeicon from "../../assets/images/plane.png";
+import Ceriaicon from "../../assets/images/ceria.png";
 
 import { useAppContext } from "../../hook/AppContext";
 import { useShallow } from "zustand/react/shallow";
@@ -16,8 +17,9 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["pesona indonesia!", "wonderful indonesia!"],
+      strings: ["pesona indonesia!", "keindahan indonesia!"],
       typeSpeed: 150,
+      loop: true,
     });
   }, []);
 
@@ -44,7 +46,7 @@ const Hero = () => {
               </span>
               <span>
                 {" "}
-                • Explore the <span ref={el}></span>
+                • Explorasi <span ref={el}></span>
               </span>
             </p>
             <h1
@@ -72,9 +74,14 @@ const Hero = () => {
               className="text-[#5E6282] max-w-[300px] min-[428px]:max-w-[350px] lg:max-w-[450px] md:text-base font-medium leading-[30px] mt-[25px]"
               style={{ fontFamily: "Plus Jakarta medium" }}
             >
-              Destinize membuat kamu selalu update terkait tempat liburan baru
-              di Indonesia dengan mengikuti perkembangan para influencer di
-              sosial media ✨
+              <span>
+                Destinize membuat kamu selalu update terkait tempat liburan baru
+                di Indonesia dengan mengikuti perkembangan para influencer di
+              </span>
+              <span className="inline-flex justify-center items-start space-x-2">
+                <span>sosial media</span>
+                <img src={Ceriaicon} alt="ceria" className="translate-y-1" />
+              </span>
             </p>
             <div className="flex justify-center items-center flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-10 mt-[34px]">
               <button className="btn-primary">Mulai sekarang →</button>

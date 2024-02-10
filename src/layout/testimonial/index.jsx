@@ -1,4 +1,4 @@
-import MapIcon from "./../../assets/images/map.png";
+import KomenIcon from "./../../assets/images/komen.png";
 import Sandhika from "./../../assets/images/pak_dika.jpg";
 import Syauqi from "./../../assets/images/syauqi.jpg";
 import Patric from "./../../assets/images/patic.jpg";
@@ -65,7 +65,7 @@ const Testimonial = () => {
       <div className="flex justify-center items-center ">
         <div className="flex justify-center space-x-1 md:space-x-2 xl:space-x-4 items-center ">
           <img
-            src={MapIcon}
+            src={KomenIcon}
             alt="mapIcon"
             className="w-[20px] md:w-[28px] xl:w-[40px] max-h-[40px]"
             loading="lazy"

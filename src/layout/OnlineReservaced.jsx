@@ -33,17 +33,20 @@ const OnlineReservaced = () => {
         <div className="flex justify-between items-center -mt-2">
           <div className="flex space-x-1 md:space-x-2 xl:space-x-4 items-center ">
             <h3 className="sub-header-text max-w-[540px] relative ">
-              <p className=" relative z-0 leading-[60px] min-[360px]:text-[20px] min-[428px]:text-[25px]  md:text-[36px] xl:text-5xl ">
-                Gak mau ngantri? reservasi aja!
+              <p className=" relative z-0 flex flex-col space-y-3 min-[360px]:text-[20px] min-[428px]:text-[25px]  md:text-[36px] xl:text-5xl  ">
+                <span>Gak mau ngantri?</span>
+                <span className="flex space-x-2">
+                  <span>reservasi aja!</span>
+                  <span className="hidden md:inline  ">
+                    <img
+                      src={AnjayIcon}
+                      alt="planeIcon"
+                      className="w-[50px] md:w-[30px] aspect-scale xl:w-[50px] max-h-[50px]"
+                      loading="lazy"
+                    />
+                  </span>
+                </span>
               </p>
-              <span className="hidden md:inline absolute  top-5 -right-20  xl:right-36 xl:top-12  z-20 min-w-11 ">
-                <img
-                  src={AnjayIcon}
-                  alt="planeIcon"
-                  className="w-[50px] md:w-[30px] aspect-scale xl:w-[50px] max-h-[50px]"
-                  loading="lazy"
-                />
-              </span>
             </h3>
           </div>
         </div>
@@ -63,14 +66,14 @@ const OnlineReservaced = () => {
         </div>
       </div>
 
-      <div className="relative mt-20 xl:mt-10">
+      <div className="relative bg mt-20 xl:mt-0 xl:translate-y-5">
         <img
           src={Dummy1}
           alt="dummy"
-          className="relative z-30 lg:scale-125"
+          className="relative z-30 "
           loading="lazy"
         />
-        <div className="absolute z-10 top-0 right-10 xl:right-28   w-[150px] xl:w-[40vh] 2xl:max-w-[300px] aspect-square opacity-60 blur-[75px] rounded-full bg-[#4475f2]"></div>
+        <div className="absolute z-10 top-5 right-10 xl:right-28   w-[150px] xl:w-[40vh] 2xl:max-w-[100px] aspect-square opacity-60 blur-[75px] rounded-full bg-[#4475f2]"></div>
       </div>
     </section>
   );

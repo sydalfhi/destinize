@@ -1,5 +1,6 @@
 import MapIcon from "../assets/images/map.png";
 import BaseMap from "../assets/images/Base.jpg";
+import MantapIcon from "../assets/images/mantap.png";
 
 import locationAddIcon from "../assets/icons/locationAdd.svg";
 import FavoriteIcon from "../assets/icons/favorite.svg";
@@ -51,9 +52,15 @@ const FindPlace = () => {
         </div>
       </div>
       <p className="paragrafh-header-text max-w-[820px] mx-auto mt-2 xl:mt-[18px]">
-        Fitur ini memungkinkan kamu untuk mencari tempat wisata atau tempat yang
-        sedang populer di daerah kamu dengan begitu kamu akan selalu update dan
-        gak kudet lagi 👍🏻
+        <span>
+          Fitur ini memungkinkan kamu untuk mencari tempat wisata atau tempat
+          yang sedang populer di daerah kamu dengan begitu kamu akan selalu
+          update dan{" "}
+        </span>
+        <span className="inline-flex items-center justify-normal space-x-2">
+          <span>gak kudet lagi</span>
+          <img src={MantapIcon} alt="mantap" />
+        </span>
       </p>
 
       <img
