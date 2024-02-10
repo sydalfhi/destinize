@@ -5,10 +5,22 @@ import Planeicon from "../../assets/images/plane.png";
 
 import { useAppContext } from "../../hook/AppContext";
 import { useShallow } from "zustand/react/shallow";
+import { useRef, useEffect } from "react";
+import Typed from "typed.js";
 const Hero = () => {
   const [setFalseSIdebar] = useAppContext(
     useShallow((state) => [state.setFalseSIdebar])
   );
+
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["pesona indonesia!", "wonderful indonesia!"],
+      typeSpeed: 150,
+    });
+  }, []);
+
   return (
     <>
       {/* <Navbar /> */}
@@ -30,7 +42,10 @@ const Hero = () => {
                   loading="lazy"
                 />
               </span>
-              <span> • Explore the wonderful indonesia!</span>
+              <span>
+                {" "}
+                • Explore the <span ref={el}></span>
+              </span>
             </p>
             <h1
               className="text-start mt-[12px]  text-[#181E4B] text-[42px] min-[428px]:text-[48px] lg:text-[70px]  font-extrabold flex flex-col items-start -space-y-3 lg:-space-y-6 tracking-[-2.1px] lg:tracking-[-3.04px] "
