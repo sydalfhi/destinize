@@ -30,18 +30,18 @@ const OnlineReservaced = () => {
       <div>
         <p className="label-header  md:mb-3 xl:mb-[13px]">RESERVASI TEMPAT</p>
 
-        <div className="flex justify-between items-center -mt-2">
+        <div className="flex justify-between items-center ">
           <div className="flex space-x-1 md:space-x-2 xl:space-x-4 items-center ">
             <h3 className="sub-header-text max-w-[540px] relative ">
-              <p className=" relative z-0 flex flex-col space-y-3 min-[360px]:text-[20px] min-[428px]:text-[25px]  md:text-[36px] xl:text-5xl  ">
+              <p className=" relative z-0 flex flex-col space-y-0.5 md:space-y-3 min-[360px]:text-[20px] min-[428px]:text-[25px]  md:text-[36px] xl:text-5xl  ">
                 <span>Gak mau ngantri?</span>
-                <span className="flex space-x-2">
+                <span className="flex space-x-3 md:space-x-2">
                   <span>reservasi aja!</span>
-                  <span className="hidden md:inline  ">
+                  <span className="inline  ">
                     <img
                       src={AnjayIcon}
                       alt="planeIcon"
-                      className="w-[50px] md:w-[30px] aspect-scale xl:w-[50px] max-h-[50px]"
+                      className="w-[25px] md:w-[30px] aspect-scale xl:w-[50px] max-h-[50px]"
                       loading="lazy"
                     />
                   </span>
@@ -51,7 +51,7 @@ const OnlineReservaced = () => {
           </div>
         </div>
 
-        <div className="min-[360px]:mt-[10px] xl:mt-[33px] grid gap-y-8 ">
+        <div className="mt-[25px] xl:mt-[33px] grid gap-y-8 ">
           {listData.map((item, index) => (
             <div className="list" key={index}>
               <div className="list-type">
@@ -66,7 +66,7 @@ const OnlineReservaced = () => {
         </div>
       </div>
 
-      <div className="relative bg mt-20 xl:mt-0 xl:translate-y-5">
+      <div className="relative mt-10 md:mt-20 xl:mt-0 xl:translate-y-5">
         <img
           src={Dummy1}
           alt="dummy"

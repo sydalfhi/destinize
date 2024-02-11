@@ -34,7 +34,7 @@ const FindPlace = () => {
   ];
 
   return (
-    <section className="mt-[40px]">
+    <section className="mt-0 md:mt-[40px]">
       <p className="label-header md:mb-3 xl:mb-[13px] text-center">
         CARI TEMPAT WISATA
       </p>

@@ -63,7 +63,7 @@ const Gallery = () => {
         <div className="order-1 md:order-2  col-span-12 md:col-span-8   px-5 lg:px-[25px] my-5 min-[884px]:my-0">
           <div className="rounded-md aspect-video w-full overflow-hidden relative hover:cursor-pointer">
             <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-20">
-              <div className="grid place-items-center bg-[#23A6F0] rounded-full min-w-[92px] min-h-[92px] max-h-[92px] ">
+              <div className="grid place-items-center bg-[#23A6F0] rounded-full min-w-[60px] min-h-[60px] max-h-[60px] md:min-w-[75px] md:min-h-[75p] lg:min-w-[92px] lg:min-h-[92px] lg:max-h-[92px] ">
                 <img src={StopIcon} alt="stop" />
               </div>
             </div>

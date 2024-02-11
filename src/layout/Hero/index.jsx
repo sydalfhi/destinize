@@ -27,7 +27,7 @@ const Hero = () => {
     <>
       {/* <Navbar /> */}
       <section
-        className="mt-[40px]    py-10 pt-5 overflow-hidden"
+        className=" md:mt-[20px] lg:mt-[40px]    py-10 pt-5 overflow-hidden"
         onTouchMove={setFalseSIdebar}
       >
         <div className=" mx-auto flex lg:px-5  md:flex-row flex-col items-center ">
@@ -50,7 +50,7 @@ const Hero = () => {
               </span>
             </p>
             <h1
-              className="text-start mt-[12px]  text-[#181E4B] text-[42px] min-[428px]:text-[48px] lg:text-[70px]  font-extrabold flex flex-col items-start -space-y-3 lg:-space-y-6 tracking-[-2.1px] lg:tracking-[-3.04px] "
+              className="text-start mt-[12px]  text-[#181E4B] text-[42px] min-[428px]:text-[48px]  lg:text-[70px]  font-extrabold flex flex-col items-start -space-y-3 lg:-space-y-6 tracking-[-2.1px] lg:tracking-[-3.04px] "
               style={{ fontFamily: "Plus Jakarta extrabold" }}
             >
               <span>Liburan & nikmati</span>
